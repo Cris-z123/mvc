@@ -1,0 +1,20 @@
+#app2 .tab-bar {
+    display: flex;
+}
+#app2 .tab-bar > li {
+    line-height: 35px;
+    border: 3px solid black;
+    width: 50%;
+}
+#app2 .tab-bar > li.selected {
+    background: orange;
+    color: white;
+}
+
+#app2 .tab-content > li {
+    display: none;
+    font-size: 20px;
+}
+#app2 .tab-content > li.active{
+    display: block;
+}

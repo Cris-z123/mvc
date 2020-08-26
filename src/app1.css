@@ -1,0 +1,9 @@
+#app1 .output > span {
+    font-size: 40px;
+}
+#app1 .actions > button {
+    line-height: 20px;
+    width: 35px;
+    border: 1px solid black;
+    outline: none;
+}
